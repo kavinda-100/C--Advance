@@ -17,6 +17,6 @@ public static class Program
         Animal animal2 = new Animal("Cat", 3);
         animal1.Name = "Puppy";
         animal2.Age = 2;
-        
+        Console.WriteLine(animal1.GetFullDetails());
     }
 }
